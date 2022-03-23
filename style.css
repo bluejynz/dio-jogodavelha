@@ -1,0 +1,56 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f1faee;
+}
+
+body {
+    text-align: center;
+    background-color: #1d3557;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    text-align: center;
+    width: 50px;
+    background-color: #a8dadc;
+    color: #a8dadc;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.player, .winner {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 8px;
+    border-color: #a8dadc;
+    background-color: transparent;
+    border-style: solid;
+    color: #a8dadc;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: transparent;
+    background-color: #a8dadc;
+    color: #1d3557;
+}
